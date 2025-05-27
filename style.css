@@ -14,7 +14,7 @@
     display: flex ; 
     justify-content:space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
 }
 
 .navbar .logo{
@@ -36,6 +36,9 @@
 .nav-list a {
     color: white;
     text-decoration: none; 
+}
+.nav-list a:hover{
+    color: blue;
 }
 /* ////hero section */
 
@@ -260,11 +263,6 @@ font-weight: bolder;
         transform: translateY(0px);
       }
     }
-    
-
-
-
-
 /* //////CARDS SECTION */
 .category-p{
     margin-top: 10px;
@@ -289,25 +287,19 @@ margin-left: 230px;
 }
 .clip:hover {
     transform: scale(1.2);
-    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
-
-
-
 
 /* ////footer section */
 
 .footer-parent{
     display: flex;
 }
-
-
 .column{
     width: 25%;
     padding-top: 18px;
      background-color: rgb(99, 99, 162); 
 } 
-
 
  .column1.column2, .column3, .column4, ul{
     text-align: center;
