@@ -27,7 +27,7 @@
     
 .leftside{ 
     width: 40%;
-    background-color: blue;
+    background-color: black;
     display: inline-block;
     border-radius: 8px;
 }
@@ -41,13 +41,13 @@
 h3{
     font-size: 15px;
     margin: 10px;
-    color: aliceblue; 
+    color: peru; 
      padding-left: 10px;  
 }
 .information {
     font-size: 12px;
     padding-top: 25px;
-    color:white;
+    color:whitesmoke;
     padding-left: 18px;   
 }
  
@@ -60,6 +60,11 @@ h3{
 
 .short{ 
     padding-top: 30px;
+    /* border-radius: 20px; */
+}
+.short img{
+    border-radius: 10px;
+    border: 2px solid grey;
 }
  
 .pera1{ 
